@@ -3824,7 +3824,6 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: #6c757d;
   display: flex;
@@ -3901,7 +3900,6 @@ textarea.form-control-lg {
   --bs-nav-pills-link-active-bg: #343435;
 }
 .nav-pills .nav-link {
-  background: #333;
   border: 0;
   border-radius: var(--bs-nav-pills-border-radius);
 }

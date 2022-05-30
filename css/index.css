@@ -39,7 +39,8 @@ nav ul li {
 }
 
 .encabezado {
-    background-color: #3F88C5
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,136,197,1) 0%, rgba(77,77,77,1) 100%); 
 }
 
 /*CAMBIO DE COLOR ENLACE ACTIVO*/

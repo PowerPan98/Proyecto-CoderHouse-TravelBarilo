@@ -263,7 +263,7 @@ footer {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("../img/Banner_Top_Bariloche.png") no-repeat center;
+    background: url("../img/Banner_Top_Bariloche.png")!important no-repeat center;
     background-size: cover;
     filter: blur(50px);
     z-index: -1;

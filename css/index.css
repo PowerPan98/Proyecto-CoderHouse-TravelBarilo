@@ -237,7 +237,9 @@ footer {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("../img/Banner_Top_Bariloche.png") !important no-repeat center;
+    /*IMAGEN ROTA
+    background: url("../img/Banner_Top_Bariloche.png") center;
+    */
     background-size: cover;
     filter: blur(50px);
     z-index: -1;
@@ -245,7 +247,7 @@ footer {
 
 .contact-box {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -257,7 +259,10 @@ footer {
     background: url("../img/Banner_Top_Bariloche.png") no-repeat center;
     background-size: cover;
     height: 100%;
-    opacity: 50%;
+    width: 100%;
+
+
+
 }
 
 .right {

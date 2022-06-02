@@ -39,8 +39,8 @@ nav ul li {
 }
 
 .encabezado {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,136,197,1) 0%, rgba(77,77,77,1) 100%); 
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(63, 136, 197, 1) 0%, rgba(77, 77, 77, 1) 100%);
 }
 
 /*CAMBIO DE COLOR ENLACE ACTIVO*/
@@ -217,27 +217,7 @@ footer {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.40;
 }
-
-.preguntas_y_respuestas {
-    margin-left: 10px;
-    position: absolute;
-    font-weight: bolder;
-    line-height: 0.9;
-}
-
-.pregunta {
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: 'Inter', sans-serif;
-    text-decoration: underline;
-}
-
-.respuesta {
-    font-weight: bold;
-}
-
 
 /* ESTILO PAGINA CONTACTO*/
 .form {
@@ -263,7 +243,7 @@ footer {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("../img/Banner_Top_Bariloche.png")!important no-repeat center;
+    background: url("../img/Banner_Top_Bariloche.png") !important no-repeat center;
     background-size: cover;
     filter: blur(50px);
     z-index: -1;

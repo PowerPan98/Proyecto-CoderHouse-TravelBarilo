@@ -161,28 +161,22 @@ h1 {
 }
 
 h1 {
-    -webkit-text-stroke: 1px black;
     font-size: 30px;
-    font-family: 'Inter', sans-serif;
     text-decoration: underline;
 }
 
 h2 {
     font-weight: bolder;
-    -webkit-text-stroke: 1px black;
     font-size: 28px;
-    font-family: 'Inter', sans-serif;
 }
 
 h3 {
     font-weight: bolder;
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
 }
 
 p {
     justify-content: center;
-    font-family: 'Inter', sans-serif;
     font-size: 18px
 }
 
@@ -339,32 +333,74 @@ textarea {
 }
 
 /* ESTILO PAGINA QUIENES SOMOS*/
-.descripcion {
-    position: relative;
-    height: 100vh;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+.bodyau{
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f1f1f1;
 }
 
-.imagen {
-
-    background-image: url(../img/Banner_Top_Bariloche.png);
+.about-section{
+    background: url(../img/BarilocheAU.jpg) no-repeat left;
     background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.50;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+
 }
 
-.descripcion_texto {
-    margin-left: 10px;
-    position: absolute;
-    font-weight: bolder;
-    line-height: 0.9;
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.textau{
+    font-size: 13px;
+    color: #222222;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
 }
 
 /*ESTILO PAGINA PAQUETES*/

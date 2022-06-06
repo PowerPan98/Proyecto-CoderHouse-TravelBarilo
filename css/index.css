@@ -78,6 +78,7 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 20px;
+    margin-top: 20px;
 
 }
 

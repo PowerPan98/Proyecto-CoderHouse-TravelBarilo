@@ -10,6 +10,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+
+
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
   <title> Travel Bariló</title>
 </head>
 <!-- COMIENZO DE BARRA DE NAVEGACION-->
@@ -40,71 +46,143 @@
   </header>
   <!-- CIERRE BARRA DE NAVEGACION-->
   <!-- COMIENZO ARTICULOS, VISTA PREVIA Y COMBOS-->
-  <div class="articulos">
-    <h1>Catálogo de excursiones</h1>
-    <div class="articulo1">
-      <h2>Rafting</h2>
-      <img src="../img/rafting-rio-manso-inferior-id1030-3e13.jpg" style="float:left">
-      <p> Los ríos del Parque Nacional Nahuel Huapi brindan el escenario para la práctica del rafting y el kayak.</p>
-      <p>Podés elegir las siguientes categorías:</p>
-      <img src="../img/sq_rafting_familiar_5.jpg" style="float:left">
-      <ul>
-        <li>Rafting Familiar:</li>
-        <p>La excursion comienza en el lago Steffen, al cual se accede desde bariloche por la ruta 40.Tras una breve
-          charla sobre seguridad, comienza el descenso por el Río Manso, rodeado de altas cumbres frondosa veteación
-          típica de la zona. Duración aproximada: 8 hs.</p>
-        <li>Rafting Adventure:</li>
-        <p>Para realizar esta excursión es necesario tener un buen estado físico y saber nadar. Luego de acceder en
-          forma terrestre por el valle del rio Manso, se navega por su ultimo tramo, con vertiginosos saltos a través de
-          estrechos cañones. La navegación concluye en la frontera con Chile. Duración aproximada: 10 hs.</p>
-      </ul>
+  <main>
 
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="bd-placeholder-img" width="100%" height="100%" src="../img/Banner_Top_Bariloche.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+  
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Disfrutá nuestras excursiones más pedidas</h1>
+              <p>Viví una experiencia única en bariloche</p>
+              <p><a class="btn btn-lg btn-primary" href="./Contacto.html">Quiero conocer más</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="bd-placeholder-img" width="100%" height="100%" src="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+  
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sumate a las miles de personas que ya vivieron la experiencia TravelBarilo.</h1>
+              <p>Vas a ser parte de una comunidad gigante</p>
+              <p><a class="btn btn-lg btn-primary" href="./Contacto.html">Me interesa!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+  
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Hablá con nosotros y elegí tu excursión.</h1>
+              <p>No pierdas la oportunidad</p>
+              <p><a class="btn btn-lg btn-primary" href="#">La voy a aprovechar!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="articulo2">
-      <h2>Cabalgatas</h2>
-      <p>Un día de cabalgata por una vieja estancia de la zona. Miles de hectareas que usted podrán recorrer admirando
-        los increíbles paisajes. Los caballos y los guías nos esperan para comenzar la travesía.</p>
-      <p>Distrutá de las siguientes opciones: </p>
-      <ul>
-        <li>Cabalgatas al lago moreno:</li>
-        <p>Partiendo desde nuestro campo, recorremos una zona poco poblada hasta la playa este del lago moreno.
-          Cabalgamos por la playa hasta la desembocadura del río Casa de piedra, donde emprenderemos el regreso.
-          Distrutaremos de los cerros López, Capilla, Bella vista y Goye. Duración 3 hs</p>
-        <li>Faldeo Cerro Campanario:</li>
-        <p>Recorreremos senderos que se internan en imponentes bosques de coihues, llegando al punto panorámicop del
-          cerro campanario,, donde podremos apreciar desde distintos miradores, los lagos el trebol y moreno. Duración 1
-          hora y media.</p>
-      </ul>
-    </div>
-    <div class="articulo3">
-      <h2>Kayak</h2>
-      <p>Punto de embarque en el exclusivo en el Camping Lago Gutiérrez, un lugar diferente y único a orillas de este
-        lago.</p>
-      <p>Los guías darán una charlas de seguridad, embarcamos comenzamos la navegación. El aproximado de navegación en
-        el lago será de 2 hs., lo que incluye una parada en alguna de sus playas desoladas y paradisíacas para tomar un
-        café, un te o un chocolate caliente con alfajores regionales.</p>
-    </div>
-    <div class="articulo4">
-      <h2>Mountain Bike</h2>
-      <p>Bicicletas totalmente equipadas. Con la posibilidad de realizar el recorrido del Circuito Chico, que comienza
-        en el kilómetro 18,400 de la avenida Bustillo.</p>
-      <p>Cuadro de aluminio liviano, suspensión delantera, 24 velocidades Shimano, frenos a disco y accesorios de
-        seguridad incluídos.</p>
-    </div>
-    <div class="articulo5">
-      <h2>Walking Tour</h2>
-      <p>A las ya tradicionales “Centro Histórico”, con ingreso al Museo de la Patagonia y a la iglesia Catedral y
-        “Huella Alemana”, desarrollada en equipo con el periodista y antropólogo Hans Schulz, se suman las caminatas
-        “Legado Europeo”, “Trekking Panorámico” y “Centro Cívico”.</p>
-      <p>Las caminatas duran dos horas y parten desde la oficina de información turística en el Centro Cívico de martes
-        a viernes a las 17 hs.</p>
-    </div>
-    <div class="articulo6">
-      <h2>Canopy y Zipline</h2>
-      <p> El primer vuelo es corto para una buena adaptación. Las siguientes plataformas aumentan paulatinamente la
-        altura y longitud de los recorridos y cuentan con sorprendentes vistas panorámicas. </p>
-    </div>
-  </div>
+  
+  
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+  
+    <div class="container marketing">
+  
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../img/rafting1.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+  
+          <h2 class="fw-normal">Rafting</h2>
+          <p>Los ríos del Parque Nacional Nahuel Huapi brindan el escenario para la práctica del rafting y el kayak.</p>
+          <p> La excursion comienza en el lago Steffen, al cual se accede desde bariloche por la ruta 40.Tras una breve
+            charla sobre seguridad, comienza el descenso por el Río Manso, rodeado de altas cumbres frondosa veteación
+            típica de la zona. Duración aproximada: 8 hs.</p>
+          <p><a class="btn btn-secondary" href="./Contacto.html">Me interesa &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../img/sq_cabalgata_3.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+  
+          <h2 class="fw-normal">Cabalgatas</h2>
+          <p>Un día de cabalgata por una vieja estancia de la zona. Miles de hectareas que usted podrán recorrer admirando los increíbles paisajes. Los caballos y los guías nos esperan para comenzar la travesía.</p>
+          <p>Partiendo desde nuestro campo, recorremos una zona poco poblada hasta la playa este del lago moreno. Cabalgamos por la playa hasta la desembocadura del río Casa de piedra, donde emprenderemos el regreso. Distrutaremos de los cerros López, Capilla, Bella vista y Goye. Duración 3 hs</p>
+          <p><a class="btn btn-secondary" href="./Contacto.html">Me interesa &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../img/kayak1.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+  
+          <h2 class="fw-normal">Kayak</h2>
+          <p>Punto de embarque en el exclusivo en el Camping Lago Gutiérrez, un lugar diferente y único a orillas de este lago.</p>
+          <p>Los guías darán una charlas de seguridad, embarcamos comenzamos la navegación. El aproximado de navegación en el lago será de 2 hs., lo que incluye una parada en alguna de sus playas desoladas y paradisíacas para tomar un café, un te o un chocolate caliente con alfajores regionales.</p>
+          <p><a class="btn btn-secondary" href="./Contacto.html">Me interesa &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">O podés vivir la experiencia Mountain Bike <span class="text-muted">Y recorrer la ciudad y sus alreredores en bici</span></h2>
+          <p class="lead">Bicicletas totalmente equipadas. Con la posibilidad de realizar el recorrido del Circuito Chico, que comienza en el kilómetro 18,400 de la avenida Bustillo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="../img/sq_punto_panorámico.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">O caminar y recorrer las calles de Bariloche <span class="text-muted">Y conocer su historia</span></h2>
+          <p class="lead">A las ya tradicionales “Centro Histórico”, con ingreso al Museo de la Patagonia y a la iglesia Catedral y “Huella Alemana”, desarrollada en equipo con el periodista y antropólogo Hans Schulz, se suman las caminatas “Legado Europeo”, “Trekking Panorámico” y “Centro Cívico”.
+            Las caminatas duran dos horas y parten desde la oficina de información turística en el Centro Cívico de martes a viernes a las 17 hs.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="../img/walkingtour1.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">O vivir la experiencia de <span class="text-muted">Zipline y Canopy</span></h2>
+          <p class="lead">El primer vuelo es corto para una buena adaptación. Las siguientes plataformas aumentan paulatinamente la altura y longitud de los recorridos y cuentan con sorprendentes vistas panorámicas.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="../img/zipline2.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+  
+        </div>
+      </div>
+  
+  
+      <!-- /END THE FEATURETTES -->
+  
+    </div><!-- /.container -->
   <!-- COMIENZO PIE DE PÁGINA-->
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

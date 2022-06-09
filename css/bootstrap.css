@@ -4970,14 +4970,9 @@ fieldset:disabled .btn {
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: #0c63e4;
   --bs-accordion-active-bg: #e7f1ff;
-  position: relative
-  
-}
-
-/* bootstrap.css | https://powerpan98.github.io/Proyecto-CoderHouse-TravelBarilo/css/bootstrap.css */
-
-.accordion {
+  position: relative;
   max-width: 900px;
+  
 }
 
 .accordion-button {

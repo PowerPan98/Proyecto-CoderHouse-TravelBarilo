@@ -96,6 +96,7 @@ textarea {
     grid-template-columns: 1fr; }
   .left {
     height: 200px; } }
+/* Estilo pagina de contacto Sobre nosotros*/  
 .bodyau {
     min-height: 100vh;
     display: flex;

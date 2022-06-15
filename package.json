@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/PowerPan98/Proyecto-CoderHouse-TravelBarilo.git"
   },
-  "author": "",
+  "author": "Andres Beroiza",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PowerPan98/Proyecto-CoderHouse-TravelBarilo/issues"
@@ -22,5 +22,5 @@
     "nodemon": "^2.0.16"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "Página que simula una agencia de viajes, donde se muestran las excursiones disponibles, no se pretende mostrar precios sino una descripción."
 }

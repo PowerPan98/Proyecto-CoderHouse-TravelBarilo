@@ -96,69 +96,220 @@ textarea {
     grid-template-columns: 1fr; }
   .left {
     height: 200px; } }
-/* Estilo pagina de contacto Sobre nosotros*/  
+
 .bodyau {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f1f1f1;
-}
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1; }
 
 .about-section {
-    background: url(../img/BarilocheAU.jpg) no-repeat left;
-    background-size: cover;
-    background-color: #fdfdfd;
-    overflow: hidden;
-    padding: 100px 0;
-
-}
+  background: url(../img/BarilocheAU.jpg) no-repeat left;
+  background-size: cover;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0; }
 
 .inner-container {
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
-    padding: 150px;
-}
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px; }
 
 .inner-container h1 {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-}
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900; }
 
 .textau {
-    font-size: 13px;
-    color: #222222;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-}
+  font-size: 13px;
+  color: #222222;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px; }
 
-@media screen and (max-width:1200px) {
-    .inner-container {
-        padding: 80px;
-    }
-}
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px; } }
 
-@media screen and (max-width:1000px) {
-    .about-section {
-        background-size: 100%;
-        padding: 100px 40px;
-    }
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px; }
+  .inner-container {
+    width: 100%; } }
 
-    .inner-container {
-        width: 100%;
-    }
-}
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0; }
+  .inner-container {
+    padding: 60px; } }
 
-@media screen and (max-width:600px) {
-    .about-section {
-        padding: 0;
-    }
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #03afff;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04); }
 
-    .inner-container {
-        padding: 60px;
-    }
-}
-/*Galeria*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense; }
+
+@media (min-width: 600px) {
+  .wide {
+    grid-column: span 2; }
+  .tall {
+    grid-row: span 2; } }
+
+.faq {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.fondo {
+  background-image: url(../img/esqui.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; }
+
+/* ESTILO INDEX*/
+/* card */
+/* TIPOGRAFIA CARD */
+.start img {
+  width: 100%;
+  height: auto; }
+
+html {
+  background: #f5f7f8;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0; }
+
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  margin-top: 20px; }
+
+.card {
+  min-height: 100%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in; }
+  .card:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
+  .card article {
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column; }
+  .card .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center; }
+  .card p {
+    flex: 1;
+    line-height: 1.4; }
+  .card span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+    text-decoration: underline #333; }
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+  font-size: 30px;
+  text-decoration: underline; }
+
+h2 {
+  font-weight: bolder;
+  font-size: 28px; }
+
+h3 {
+  font-weight: bolder;
+  font-size: 20px; }
+
+p {
+  justify-content: center;
+  font-size: 18px; }
+
+@media only screen and (min-width: 500px) {
+  .band {
+    grid-template-columns: 1fr 1fr; }
+  .item-1 {
+    grid-column: 1/ span 2; }
+    .item-1 h1 {
+      font-size: 30px; } }
+
+@media only screen and (min-width: 850px) {
+  .band {
+    grid-template-columns: 1fr 1fr 1fr 1fr; } }
+
+/*Estilo general pagina principal*/
+li a {
+  padding: 14px 16px; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+body {
+  margin: 0; }
+
+.divisor {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+.container {
+  text-align: center; }
+
+.divisor ul li a:hover {
+  background-color: #3f3f3f; }
+
+nav ul li {
+  font-family: 'Inter', sans-serif;
+  margin: 10px 10px;
+  border-right: 2px #000; }
+
+.encabezado {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #3f88c5 0%, #4d4d4d 100%); }

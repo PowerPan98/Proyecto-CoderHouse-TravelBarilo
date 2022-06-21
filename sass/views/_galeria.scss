@@ -1,7 +1,8 @@
 .grid-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex(flex, center, center);
+ // display: flex;
+ // align-items: center;
+ // justify-content: center;
   background-color: #03afff;
   border-radius: 4px;
   transition: 0.3s ease-in-out;

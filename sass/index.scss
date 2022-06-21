@@ -1,6 +1,12 @@
+//VIEWS//
 @import './views/contacto';
 @import './views/sobre_nosotros';
 @import './views/galeria';
 @import './views/preguntas_frecuentes';
 @import './views/index';
+
+//PARTIALS//
 @import './partials/header';
+
+//MIXIN//
+@import './misc/mixin';
